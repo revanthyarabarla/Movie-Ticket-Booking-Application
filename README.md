@@ -34,17 +34,16 @@ mysql -u root -p mtbsdb < movie_booking_schema.sql
 3. Verify the tables are created:
 USE mtbsdb;
 SHOW TABLES;
-Expected output:
-+------------------+
-| Tables_in_mtbsdb |
-+------------------+
-| tbladmin         |
-| tblcaptcha       |
-| tblcustomer      |
-| tblmovie         |
-| tblmoviebooking  |
-| tblreview        |
-+------------------+
+
+ Tables_in_mtbsdb 
+
+ tbladmin         
+ tblcaptcha       
+ tblcustomer      
+ tblmovie         
+ tblmoviebooking  
+ tblreview        
+
    
 Step 3: 
 1. Configure Database Connection
